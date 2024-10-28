@@ -269,15 +269,21 @@ header div.bottom div.right div.option button {
   padding: 20px 0px;
 }
 
-#brands .brands-container {
+#brands .wrapper {
 }
 
-#brands .brands-container ul {
+#brands .wrapper .brands-container {
+}
+
+#brands .wrapper .brands-container ul {
   display: flex;
   justify-content: space-between;
 }
 
-#brands .brands-container ul li {
+#brands .wrapper .brands-container ul li {
+}
+
+#brands .wrapper .brands-container ul li img {
 }
 
 #new-arrivals {
@@ -561,6 +567,7 @@ header div.bottom div.right div.option button {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .reviews-section {
@@ -647,3 +654,157 @@ header div.bottom div.right div.option button {
 .arrowss {
   cursor: pointer;
 }
+
+/* #about { 
+
+}
+
+#about .about-container { 
+
+}
+
+#about .about-container .about-left { 
+
+}
+
+#about .about-container .about-left h4 { 
+
+}
+
+#about .about-container .about-right { 
+
+}
+
+#about .about-container .about-right .container { 
+
+}
+
+#about .about-container .about-right .container .input-container { 
+  width: 20px;
+}
+
+#about .about-container .about-right .container .input-container img { 
+
+}
+
+#about .about-container .about-right .container .input-container input { 
+
+}
+
+#about .about-container .about-right .button { 
+
+}
+
+#about .about-container .about-right .button button { 
+
+} */
+
+#about {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.about-left {
+  width: 70%;
+}
+.about-left h4 {
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 68%;
+  text-transform: uppercase;
+}
+
+.about-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+}
+
+.about-right form {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.input-container img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1em;
+  color: #333;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.button button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 31px;
+  width: 100%;
+  padding: 10px 29px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button button:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
