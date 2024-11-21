@@ -13,6 +13,60 @@
     />
   </head>
   <body>
+    <div class="top-bg">
+      <section class="wrapper">
+        <div class="top">
+          <p>Sign up and get 20% off to your first order.</p>
+          <button>Sign Up Now</button>
+        </div>
+      </section>
+    </div>
+
+    <header class="menu-button">
+      <section class="wrapper">
+        <div class="menu-wrapper">
+          <div class="menu-left">
+            <div class="hamburger" onclick="toggleMenu()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <nav>
+              <ul class="nav-links">
+                <li><a href="#">Shop ▼</a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+              </ul>
+              <div class="search-cart-icons">
+                <!-- <input type="text" placeholder="Search for products...">
+                <a href="#" class="cart-icon">🛒</a>
+                <a href="#" class="account-icon">👤</a> -->
+              </div>
+            </nav>
+            <div class="logo">SHOP.CO</div>
+          </div>
+          <div class="menu-right">
+            <div class="menu-right-icon">
+              <a href="#">
+                <img src="/assets/icons/search.svg" alt="icon" />
+              </a>
+            </div>
+            <div class="menu-right-icon">
+              <a href="#">
+                <img src="/assets/icons/cart.svg" alt="icon" />
+              </a>
+            </div>
+            <div class="menu-right-icon">
+              <a href="#">
+                <img src="/assets/icons/profile.svg" alt="icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
     <header>
       <div class="top-bg">
         <section class="wrapper">
@@ -76,6 +130,7 @@
         </section>
       </div>
     </header>
+
     <section id="spotlight">
       <section class="wrapper">
         <div class="main-container">
@@ -156,7 +211,7 @@
                   </div>
                 </div>
                 <div class="product-details">
-                  <h4 class="product-name">T-SHIRT WITH TAPE DETAILS</h4>
+                  <h4 class="product-name">T-shirt with Tape Details</h4>
                   <div class="rating-wrapper">
                     <div class="star-wrapper">
                       <img src="./assets/icons/stars.svg" alt="rating-star" />
@@ -179,7 +234,10 @@
                   <h4 class="product-name">Skinny Fit Jeans</h4>
                   <div class="rating-wrapper">
                     <div class="star-wrapper">
-                      <img src="./assets/icons/stars.svg" alt="rating-star" />
+                      <img
+                        src="./assets/icons/3.5 star.svg"
+                        alt="rating-star"
+                      />
                     </div>
                     <div class="rating">3.5/5</div>
                   </div>
@@ -259,7 +317,10 @@
                   <h4 class="product-name">Vertical Striped Shirt</h4>
                   <div class="rating-wrapper">
                     <div class="star-wrapper">
-                      <img src="./assets/icons/stars.svg" alt="rating-star" />
+                      <img
+                        src="./assets/icons/5.0 star.svg"
+                        alt="rating-star"
+                      />
                     </div>
                     <div class="rating">5.0/5</div>
                   </div>
@@ -281,7 +342,10 @@
                   <h4 class="product-name">Courage Graphic T-shirt</h4>
                   <div class="rating-wrapper">
                     <div class="star-wrapper">
-                      <img src="./assets/icons/stars.svg" alt="rating-star" />
+                      <img
+                        src="./assets/icons/4.0 star.svg"
+                        alt="rating-star"
+                      />
                     </div>
                     <div class="rating">4.0/5</div>
                   </div>
@@ -301,7 +365,10 @@
                   <h4 class="product-name">Loose Fit Bermuda Shorts</h4>
                   <div class="rating-wrapper">
                     <div class="star-wrapper">
-                      <img src="./assets/icons/stars.svg" alt="rating-star" />
+                      <img
+                        src="./assets/icons/3.0 star.svg"
+                        alt="rating-star"
+                      />
                     </div>
                     <div class="rating">3.0/5</div>
                   </div>
@@ -360,6 +427,7 @@
         </div>
       </div>
     </section>
+
     <section class="wrapper">
       <section class="center">
         <section class="reviews-section">
@@ -512,7 +580,9 @@
               <div class="social-icons">
                 <a href="#"
                   ><i class="fab fa-twitter"
-                    ><img src="assets/icons/logo-twitter.svg" alt="twitter" /></i
+                    ><img
+                      src="assets/icons/logo-twitter.svg"
+                      alt="twitter" /></i
                 ></a>
                 <a href="#"
                   ><i class="fab fa-facebook-f"
@@ -523,7 +593,9 @@
                 ></a>
                 <a href="#"
                   ><i class="fab fa-instagram"
-                    ><img src="assets/icons/logo-instagram.svg" alt="instagram" /></i
+                    ><img
+                      src="assets/icons/logo-instagram.svg"
+                      alt="instagram" /></i
                 ></a>
                 <a href="#"
                   ><i class="fab fa-pinterest"
@@ -582,5 +654,17 @@
         </div>
       </section>
     </footer>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        const searchIcons = document.querySelector(".search-cart-icons");
+        const hamburger = document.querySelector(".hamburger");
+
+        navLinks.classList.toggle("active");
+        searchIcons.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
