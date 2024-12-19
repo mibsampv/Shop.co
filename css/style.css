@@ -17,6 +17,28 @@ ul {
   list-style: none;
 }
 
+@font-face {
+  font-family: "interbold";
+  src: url("/assests/fonts/Inter_28pt-Bold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "intermedium";
+  src: url("/assests/fonts/Inter_28pt-Medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "interregular";
+  src: url("/assests/fonts/Inter_28pt-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
@@ -220,6 +242,7 @@ header div.bottom nav.middle ul {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  font-family: "intermedium";
 }
 
 header div.bottom nav.middle ul li {
@@ -277,6 +300,7 @@ header div.bottom div.right div.option button {
 
 #spotlight {
   background-color: #f2f0f1;
+  padding-top: 30px;
 }
 #spotlight div.main-container {
   display: flex;
@@ -292,6 +316,7 @@ header div.bottom div.right div.option button {
   font-size: 64px;
   font-weight: 700;
   line-height: 64px;
+  font-family: "interbold";
 }
 
 #spotlight div.content-spot p.spot-descript {
@@ -300,6 +325,7 @@ header div.bottom div.right div.option button {
   color: #808080;
   padding: 22px 0;
   width: 70%;
+  font-family: "intermedium";
 }
 
 #spotlight div.content-spot button {
@@ -318,6 +344,7 @@ header div.bottom div.right div.option button {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 #spotlight div.content-spot ul li:nth-child(2) {
@@ -424,6 +451,7 @@ header div.bottom div.right div.option button {
   font-size: 48px;
   font-weight: 700;
   margin-top: 70px;
+  font-family: "interbold";
 }
 
 #new-arrivals .new-container .middle {
@@ -484,6 +512,7 @@ header div.bottom div.right div.option button {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 10px;
+  font-family: "interbold";
 }
 
 #new-arrivals
@@ -592,7 +621,8 @@ header div.bottom div.right div.option button {
 #new-arrivals .new-container .bottom button {
   font-size: 16px;
   font-weight: 500;
-  padding: 16px 54px;
+  padding: 16px 70px;
+  cursor: pointer;
   border: 1px solid #e6e6e6;
   border-radius: 62px;
 }
@@ -603,6 +633,7 @@ header div.bottom div.right div.option button {
 #types .four-types {
   background: #f0f0f0;
   border-radius: 30px;
+  font-family: "interbold";
 }
 
 #types .four-types .top {
@@ -688,6 +719,7 @@ header div.bottom div.right div.option button {
 .reviews-section h1 {
   font-size: 48px;
   font-weight: 800;
+  font-family: "interbold";
 }
 
 .carousel {
@@ -711,6 +743,7 @@ header div.bottom div.right div.option button {
   border-radius: 10px;
   background-color: white;
   width: 100%;
+  font-family: "intermedium";
 }
 
 .stars {
@@ -781,7 +814,7 @@ header div.bottom div.right div.option button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 30px;
+  padding: 38px 50px;
   border-radius: 10px;
 
   position: relative;
@@ -805,6 +838,7 @@ header div.bottom div.right div.option button {
   font-weight: 800;
   width: 68%;
   text-transform: uppercase;
+  font-family: "interbold";
 }
 
 .about-right {
@@ -893,6 +927,7 @@ footer {
   line-height: 1.6;
   color: #555;
   font-size: 14px;
+  font-family: "interbold";
 }
 
 .social-icons {
@@ -933,10 +968,12 @@ footer {
   margin-bottom: 26px;
   font-weight: bold;
   font-size: 16px;
+  font-family: "interbold";
 }
 
 .footer-column ul {
   list-style: none;
+  font-family: "intermedium";
 }
 
 .footer-column ul li {
@@ -968,6 +1005,9 @@ footer {
   margin-left: 10px;
   width: 40px;
   height: auto;
+  background-color: #fff;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
 }
 
 @media all and (max-width: 1280px) {
@@ -1173,7 +1213,7 @@ footer {
     flex-direction: column;
     gap: 15px;
     position: absolute;
-    top: 60px;
+    top: 75px;
     left: 0;
     width: 100%;
     background-color: #fff;
