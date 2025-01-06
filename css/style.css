@@ -314,9 +314,9 @@ header div.bottom div.right div.option button {
 
 #spotlight div.content-spot h3 {
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 64px;
-  font-family: "interbold";
+  color: #000;
 }
 
 #spotlight div.content-spot p.spot-descript {
@@ -449,9 +449,8 @@ header div.bottom div.right div.option button {
 #new-arrivals .new-container .new-top h3 {
   text-align: center;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 800;
   margin-top: 70px;
-  font-family: "interbold";
 }
 
 #new-arrivals .new-container .middle {
@@ -642,8 +641,10 @@ header div.bottom div.right div.option button {
 
 #types .four-types .top h1 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
+  font-family: sans-serif;
+  color: #000;
 }
 
 #types .four-types .bottom {
@@ -719,7 +720,7 @@ header div.bottom div.right div.option button {
 .reviews-section h1 {
   font-size: 48px;
   font-weight: 800;
-  font-family: "interbold";
+  
 }
 
 .carousel {
@@ -756,16 +757,10 @@ header div.bottom div.right div.option button {
   font-size: 20px;
   display: flex;
   align-items: center;
+  gap: 6px;
 }
 
-.verified-badge {
-  background: #01ab31;
-  color: #fff;
-  margin-left: 8px;
-  border: 1px solid #01ab31;
-  padding: 0px 5px;
-  border-radius: 50%;
-}
+
 
 .review-text {
   color: #666;
@@ -838,7 +833,6 @@ header div.bottom div.right div.option button {
   font-weight: 800;
   width: 68%;
   text-transform: uppercase;
-  font-family: "interbold";
 }
 
 .about-right {
